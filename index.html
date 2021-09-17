@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Moje Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>PORTFOLIO</h1>
+            <h4>PATRYK KARASIŃSKI</h4>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="list">
+                <li class="list-item">
+                    <a href="https://github.com/patryk355" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <p>GitHub</p>
+                    </a>
+                </li>
+
+                <li class="list-item">
+                    <a href="https://www.facebook.com/patrykkarasinski123/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                        <p>Facebook</p>
+                    </a>
+                </li>
+
+                <li class="list-item">
+                    <a href="https://www.linkedin.com/in/patryk-karasiński-a344b6214/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <p>LinkedIn</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="about-me">
+        <div class="container">
+            <h2>O MNIE <i class="fas fa-comment"></i></h2>
+            <p>Witam! Nazywam się Patryk Karasiński, pochodzę z województwa łódzkiego. Aktualnie jestem studentem na
+                kierunku Informatyk. Interesuję się programowaniem stron internetowych od strony front-end. Zachęcam do
+                zobaczenia wykonanych przeze mnie projektów poniżej.</p>
+        </div>
+    </article>
+
+    <main class="projects">
+        <div class="container">
+            <h2>MOJE PROJEKTY</h2>
+            <div class="cards">
+                <!-- Calculator -->
+                <div class="card">
+                    <div class="title">
+                        <h3>Calculator</h3>
+                    </div>
+                    <div class="img-container">
+                        <a href="https://patryk355.github.io/Calculator/" target="_blank">
+                            <img src="img/project_calculator.png" alt="Project - Calculator" class="img-project">
+                        </a>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Prosty kalkulator, który pomógł mi przećwiczyć podstawy języka Javascript. Cały skrypt
+                            zrobiony za pomocą funkcji.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">
+                            <a href="https://patryk355.github.io/Calculator/">Otwórz stronę</a>
+                        </button>
+                        <div class="code">
+                            <button class="btn btn-code" data-index="0">
+                                <p> Kod </p>
+                                <i class="fas fa-chevron-down"></i>
+
+                            </button>
+                            <ul class="list-code" data-index="0">
+                                <li>
+                                    <a href="code/Calculator/html.txt">Kod HTML</a>
+                                </li>
+
+                                <li>
+                                    <a href="code/Calculator/css.txt">Kod CSS</a>
+                                </li>
+
+                                <li>
+                                    <a href="code/Calculator/js.txt">Kod JS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Football Clubs -->
+                <div class="card">
+                    <div class="title">
+                        <h3>Football Clubs</h3>
+                    </div>
+                    <div class="img-container">
+                        <a href="https://patryk355.github.io/Football-clubs-page-with-Bootstrap/" target="_blank">
+                            <img src="img/project_football_clubs.png" alt="Project - Football Clubs"
+                                class="img-project">
+                        </a>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Piłka nożna to moje hobby, więc wykorzystałem je do zrobienia strony o kilku klubach.
+                            Wykorzystałem tutaj Bootstrap, który wydawał mi się idealny do mojego pomysłu.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">
+                            <a href="https://patryk355.github.io/Football-clubs-page-with-Bootstrap/">Otwórz
+                                stronę</a>
+                        </button>
+                        <div class="code">
+                            <button class="btn btn-code" data-index="1">
+                                <p> Kod </p>
+                                <i class="fas fa-chevron-down"></i>
+
+                            </button>
+                            <ul class="list-code" data-index="1">
+                                <li>
+                                    <a href="code/Football_clubs_page/html.txt">Kod HTML</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sortable List -->
+                <div class="card">
+                    <div class="title">
+                        <h3>Sortable List</h3>
+                    </div>
+                    <div class="img-container">
+                        <a href="https://patryk355.github.io/Sortable-list/index.html" target="_blank">
+                            <img src="img/project_sortable_list.png" alt="Project - Football Clubs" class="img-project">
+                        </a>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lista zawierająca losowo rozmieszczone liczby. Użytkownik ma za zadanie ustawić je rosnąco.
+                            Dzięki temu projektowi przećwiczyłem drag&drop.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn">
+                            <a href="https://patryk355.github.io/Sortable-list/index.html" class="btn">Otwórz
+                                stronę</a>
+                        </button>
+                        <div class="code">
+                            <button class="btn btn-code" data-index="2">
+                                <p> Kod </p>
+                                <i class="fas fa-chevron-down"></i>
+
+                            </button>
+                            <ul class="list-code" data-index="2">
+                                <li>
+                                    <a href="code/Sortable_List/html.txt">Kod HTML</a>
+                                </li>
+                                <li>
+                                    <a href="code/Sortable_List/css.txt">Kod CSS</a>
+                                </li>
+                                <li>
+                                    <a href="code/Sortable_List/js.txt">Kod JS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Wszelkie prawa zastrzeżone <i class="far fa-copyright"></i> 2021</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
