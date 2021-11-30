@@ -2,7 +2,6 @@ const btnsCode = [...document.querySelectorAll('.btn-code')];
 const listsCode = [...document.querySelectorAll('.list-code')];
 
 function displayListCode() {
-    console.log(this);
     listsCode.forEach((listCode, idx) => {
         if (listCode.dataset.index === this.dataset.index) {
             listCode.classList.toggle('active');
@@ -13,7 +12,6 @@ function displayListCode() {
             }
         }
     })
-
 }
 
 btnsCode.forEach((btn, index) => {
